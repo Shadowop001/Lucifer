@@ -74,24 +74,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """ 𝙃𝙚𝙡𝙡𝙤, 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 💞𝐀𝐋𝐈𝐍𝐀💞 
+PM_START_TEXT = """ 𝙃𝙚𝙡𝙡𝙤, 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈
 𝙃𝙚𝙮,𝙄 𝙖𝙢 𝙖 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧, 𝙈𝙖𝙙𝙚 𝙨𝙥𝙚𝙘𝙞𝙖𝙡𝙡𝙮 𝙛𝙤𝙧 𝙈𝙖𝙣𝙖𝙜𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥𝙨.
 
-[💞𝐀𝐋𝐈𝐍𝐀💞 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠 𝑖𝑛 𝐴𝐿𝐼𝑁𝐴🔥](https://telegra.ph/file/167501102e7b1b7cca989.jpg)
+[😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠 𝑖𝑛 𝐋𝐔𝐂𝐈𝐅𝐄𝐑🔥](https://telegra.ph/file/29462832ef183d589eabb.jpg)
 
 1=> 𝑌𝑜𝑢 𝑐𝑎𝑛 𝑚𝑎𝑛𝑎𝑔𝑒 𝑦𝑜𝑢𝑟 𝐺𝑟𝑜𝑢𝑝.✅ 
 
 2=> 𝑌𝑜𝑢 𝑐𝑎𝑛 𝑝𝑙𝑎𝑦 𝑠𝑜𝑛𝑔𝑠 𝑖𝑛 𝑉𝐶.✅ 
 
-3=> 𝐴𝐿𝐼𝑁𝐴 𝑖𝑠 𝑎 𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙 𝑎𝑛𝑑 ℎ𝑖𝑔ℎ-𝑎𝑑𝑣𝑎𝑛𝑐𝑒 𝐵𝑂𝑇 ✅ 
+3=> 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝑖𝑠 𝑎 𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙 𝑎𝑛𝑑 ℎ𝑖𝑔ℎ-𝑎𝑑𝑣𝑎𝑛𝑐𝑒 𝐵𝑂𝑇 ✅ 
 
-4=> 𝐴𝐿𝐼𝑁𝐴 𝐶𝑜𝑚𝑒𝑠 𝑤𝑖𝑡ℎ 𝑁𝑒𝑤 𝑎𝑛𝑑 𝑎𝑑𝑣𝑎𝑛𝑐𝑒 𝑓𝑒𝑎𝑡𝑢𝑟𝑒 ✅
+4=> 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐶𝑜𝑚𝑒𝑠 𝑤𝑖𝑡ℎ 𝑁𝑒𝑤 𝑎𝑛𝑑 𝑎𝑑𝑣𝑎𝑛𝑐𝑒 𝑓𝑒𝑎𝑡𝑢𝑟𝑒 ✅
 
-5=> 𝑌𝑜𝑢 𝑐𝑎𝑛'𝑡 𝑐𝑜𝑚𝑝𝑎𝑟𝑒 𝐴𝐿𝐼𝑁𝐴 𝐵𝑂𝑇 𝑤𝑖𝑡ℎ 𝑜𝑡ℎ𝑒𝑟𝑠 𝐵𝑜𝑡 𝑏𝑒𝑐𝑎𝑢𝑠𝑒 𝐴𝐿𝐼𝑁𝐴 𝑖𝑠 𝑎 𝑃𝑅𝑂 𝐵𝑂𝑇 😎
+5=> 𝑌𝑜𝑢 𝑐𝑎𝑛'𝑡 𝑐𝑜𝑚𝑝𝑎𝑟𝑒 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐵𝑂𝑇 𝑤𝑖𝑡ℎ 𝑜𝑡ℎ𝑒𝑟𝑠 𝐵𝑜𝑡 𝑏𝑒𝑐𝑎𝑢𝑠𝑒 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝑖𝑠 𝑎 𝑃𝑅𝑂 𝐵𝑂𝑇 😎
 
-6=> 𝑀𝑜𝑟𝑒 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠 𝑜𝑛𝑙𝑦 𝑖𝑛 𝐴𝐿𝐼𝑁𝐴 𝐵𝑂𝑇 😎
+6=> 𝑀𝑜𝑟𝑒 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠 𝑜𝑛𝑙𝑦 𝑖𝑛 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐵𝑂𝑇 😎
 
-7=> 𝑂𝑛𝑒 𝑏𝑜𝑡(💞𝐀𝐋𝐈𝐍𝐀💞) 𝑐𝑎𝑛 𝑑𝑜 𝑒𝑣𝑒𝑟𝑦𝑡ℎ𝑖𝑛𝑔 𝑜𝑛𝑙𝑦🔥 𝑌𝑜𝑢 ℎ𝑎𝑣𝑒 𝑡𝑜 𝑙𝑒𝑎𝑟𝑛 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠 𝑜𝑓 𝑡ℎ𝑖𝑠 𝐵𝑂𝑇 ✅ 
+7=> 𝑂𝑛𝑒 𝑏𝑜𝑡(😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈) 𝑐𝑎𝑛 𝑑𝑜 𝑒𝑣𝑒𝑟𝑦𝑡ℎ𝑖𝑛𝑔 𝑜𝑛𝑙𝑦🔥 𝑌𝑜𝑢 ℎ𝑎𝑣𝑒 𝑡𝑜 𝑙𝑒𝑎𝑟𝑛 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠 𝑜𝑓 𝑡ℎ𝑖𝑠 𝐵𝑂𝑇 ✅ 
 
          👇 𝑂𝑡ℎ𝑒𝑟 𝑇𝑜𝑝𝑖𝑐 👇
          
@@ -99,15 +99,15 @@ PM_START_TEXT = """ 𝙃𝙚𝙡𝙡𝙤, 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 �
 
 9=> 𝐷𝑜𝑛'𝑡 𝑓𝑜𝑟𝑔𝑒𝑡 𝑡𝑜 𝐽𝑜𝑖𝑛 𝑀𝑢𝑠𝑖𝑐 𝐺𝑟𝑜𝑢𝑝 𝑎𝑙𝑠𝑜 🔥🎵🎵.𝐶𝑜𝑚𝑒( 𝑀𝑢𝑠𝑖𝑐 𝐺𝑟𝑜𝑢𝑝 🎵)ℎ𝑒𝑟𝑒 𝑎𝑛𝑑 𝐿𝑖𝑠𝑡𝑒𝑛 𝑆𝑜𝑛𝑔𝑠 𝑖𝑛 𝑉𝐶 𝑤𝑖𝑡ℎ 𝐹𝑟𝑖𝑒𝑛𝑑𝑠 🎵.
 
-10=> [🔥𝙎𝙃𝙐𝘽𝙃𝘼𝙈 🅡🅐🅙🔥 😎](https://t.me/shubhamtech2)
+10=> [🔥Ꮢყαɳ ơ℘🔥 😎](https://t.me/IMMORTAL_RYAN)
 
-𝙏𝙝𝙞𝙨 𝙋𝙧𝙤 𝙗𝙤𝙩 𝙬𝙖𝙨 𝙢𝙖𝙙𝙚 𝙗𝙮 [𝙎𝙃𝙐𝘽𝙃𝘼𝙈 🅡🅐🅙](https://t.me/shubhamtech2)
+𝙏𝙝𝙞𝙨 𝙋𝙧𝙤 𝙗𝙤𝙩 𝙬𝙖𝙨 𝙢𝙖𝙙𝙚 𝙗𝙮 [Ꮢყαɳ ơ℘](https://t.me/𝐋𝐔𝐂𝐈𝐅𝐄𝐑)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD 💞𝐀𝐋𝐈𝐍𝐀💞 TO YOUR GROUP ➕️", url="t.me/alinatheprincesss_bot?startgroup=true"),
+            text="➕️ ADD 😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈 TO YOUR GROUP ➕️", url="t.me/LuciferOpRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
@@ -115,39 +115,33 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✨MY OWNER 😎✨", url="http://t.me/shubhamtech2"),
+            text="✨MY OWNER 👑✨", url="http://t.me/IMMORTAL_RYAN"),
        
     ],
     [  
-        InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://t.me/PRINCEBOTSUPPORT"),
-    InlineKeyboardButton(text="🎵MUSIC-GROUP🎵",url="https://t.me/MUSIC_CHATS_GROUP"),
-], 
- [ InlineKeyboardButton(text="👑BOT-CREADIT👑",url="https://t.me/TERABAAP_DEVIL"),
- ],
-
-
-    [ InlineKeyboardButton(text="🔥JOIN CHATTING GROUP🔥",url="https://t.me/friendhship"),
+        InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://telegra.ph/file/9c437e8708ee4d4d15765.jpg"),
+    InlineKeyboardButton(text="🔥JOIN CHATTING GROUP🔥",url="https://telegra.ph/file/9c437e8708ee4d4d15765.jpg"),
 ],
 ]
 
 HELP_STRINGS = """
-💞𝐀𝐋𝐈𝐍𝐀💞 WITH NEW FEATURES 
+😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈 WITH NEW FEATURES 
 
-Don't forget ALINA is a Powerful and advance Bot 😎 You can expect more from this Bot 🔥..
-Please check all commands of ALINA after that you can use all PRO features of this Bot. Explore all commands of ALINA 😎🤔.
-One Intresting Feature in ALINA bot => You can access Google in Groups using this Bot and also you can get images in Group using this Bot 😎.
+Don't forget LUCIFER is a Powerful and advance Bot 😎 You can expect more from this Bot 🔥..
+Please check all commands of LUCIFER after that you can use all PRO features of this Bot. Explore all commands of LUCIFER 😈✨.
+One Intresting Feature in 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 bot => You can access Google in Groups using this Bot and also you can get images in Group using this Bot 😈.
 
-                 #UNSTOPPABLEALINA#
+                 #UNSTOPPABLELUCIFER#
 
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF 💞𝐀𝐋𝐈𝐍𝐀💞*꧂
+*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF 😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈*
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @PRINCEBOTSUPPORT* [.](https://telegra.ph/file/167501102e7b1b7cca989.jpg)
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @IMMORTAL_RYAN* [.](https://telegra.ph/file/29462832ef183d589eabb.jpg)
 """
 
 
-DONATE_STRING ="""CONTACT ME ON  @shubhamtech2"""
+DONATE_STRING ="""CONTACT ME ON  @IMMORTAL_RYAN"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -392,7 +386,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm [💞𝐀𝐋𝐈𝐍𝐀💞](https://telegra.ph/file/167501102e7b1b7cca989.jpg), a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm [😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈](https://telegra.ph/file/29462832ef183d589eabb.jpg), a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -400,8 +394,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/prince301102/tiana-2.0).
-                 If you have any question about masha, let us know at @princebotsupport.""",
+                 Here is the [💾Repository](https://telegra.ph/file/9c437e8708ee4d4d15765.jpg).
+                 If you have any question about masha, let us know at @IMMORTAL_RYAN.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -427,8 +421,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *💞𝐀𝐋𝐈𝐍𝐀💞 BOT*
-                 \nHere is the [Source Code](https://GitHub.com/prince301102/tiana-2.0) .""",
+            text=""" Hi..🤗 I'm *😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈 BOT*
+                 \nHere is the [Source Code](https://telegra.ph/file/9c437e8708ee4d4d15765.jpg) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
