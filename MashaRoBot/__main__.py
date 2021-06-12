@@ -74,32 +74,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """ 𝙃𝙚𝙡𝙡𝙤, 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈
+PM_START_TEXT = """ 𝙃𝙚𝙡𝙡𝙤 {}, 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈
 𝙃𝙚𝙮,𝙄 𝙖𝙢 𝙖 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧, 𝙈𝙖𝙙𝙚 𝙨𝙥𝙚𝙘𝙞𝙖𝙡𝙡𝙮 𝙛𝙤𝙧 𝙈𝙖𝙣𝙖𝙜𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥𝙨.
 
-[😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠 𝑖𝑛 𝐋𝐔𝐂𝐈𝐅𝐄𝐑🔥](https://telegra.ph/file/29462832ef183d589eabb.jpg)
-
-1=> 𝑌𝑜𝑢 𝑐𝑎𝑛 𝑚𝑎𝑛𝑎𝑔𝑒 𝑦𝑜𝑢𝑟 𝐺𝑟𝑜𝑢𝑝.✅ 
-
-2=> 𝑌𝑜𝑢 𝑐𝑎𝑛 𝑝𝑙𝑎𝑦 𝑠𝑜𝑛𝑔𝑠 𝑖𝑛 𝑉𝐶.✅ 
-
-3=> 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝑖𝑠 𝑎 𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙 𝑎𝑛𝑑 ℎ𝑖𝑔ℎ-𝑎𝑑𝑣𝑎𝑛𝑐𝑒 𝐵𝑂𝑇 ✅ 
-
-4=> 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐶𝑜𝑚𝑒𝑠 𝑤𝑖𝑡ℎ 𝑁𝑒𝑤 𝑎𝑛𝑑 𝑎𝑑𝑣𝑎𝑛𝑐𝑒 𝑓𝑒𝑎𝑡𝑢𝑟𝑒 ✅
-
-5=> 𝑌𝑜𝑢 𝑐𝑎𝑛'𝑡 𝑐𝑜𝑚𝑝𝑎𝑟𝑒 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐵𝑂𝑇 𝑤𝑖𝑡ℎ 𝑜𝑡ℎ𝑒𝑟𝑠 𝐵𝑜𝑡 𝑏𝑒𝑐𝑎𝑢𝑠𝑒 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝑖𝑠 𝑎 𝑃𝑅𝑂 𝐵𝑂𝑇 😎
-
-6=> 𝑀𝑜𝑟𝑒 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠 𝑜𝑛𝑙𝑦 𝑖𝑛 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 𝐵𝑂𝑇 😎
-
-7=> 𝑂𝑛𝑒 𝑏𝑜𝑡(😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈) 𝑐𝑎𝑛 𝑑𝑜 𝑒𝑣𝑒𝑟𝑦𝑡ℎ𝑖𝑛𝑔 𝑜𝑛𝑙𝑦🔥 𝑌𝑜𝑢 ℎ𝑎𝑣𝑒 𝑡𝑜 𝑙𝑒𝑎𝑟𝑛 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑠 𝑜𝑓 𝑡ℎ𝑖𝑠 𝐵𝑂𝑇 ✅ 
-
-         👇 𝑂𝑡ℎ𝑒𝑟 𝑇𝑜𝑝𝑖𝑐 👇
-         
-8=> 𝑃𝑙𝑒𝑎𝑠𝑒 𝐽𝑜𝑖𝑛 𝑂𝑢𝑟 𝐶ℎ𝑎𝑡𝑡𝑖𝑛𝑔 𝐺𝑟𝑜𝑢𝑝 ✅ 
-
-9=> 𝐷𝑜𝑛'𝑡 𝑓𝑜𝑟𝑔𝑒𝑡 𝑡𝑜 𝐽𝑜𝑖𝑛 𝑀𝑢𝑠𝑖𝑐 𝐺𝑟𝑜𝑢𝑝 𝑎𝑙𝑠𝑜 🔥🎵🎵.𝐶𝑜𝑚𝑒( 𝑀𝑢𝑠𝑖𝑐 𝐺𝑟𝑜𝑢𝑝 🎵)ℎ𝑒𝑟𝑒 𝑎𝑛𝑑 𝐿𝑖𝑠𝑡𝑒𝑛 𝑆𝑜𝑛𝑔𝑠 𝑖𝑛 𝑉𝐶 𝑤𝑖𝑡ℎ 𝐹𝑟𝑖𝑒𝑛𝑑𝑠 🎵.
-
-10=> [🔥Ꮢყαɳ ơ℘🔥 😎](https://t.me/IMMORTAL_RYAN)
+[😈Ꮢყαɳ ơ℘😈 👑](https://t.me/IMMORTAL_RYAN)
 
 𝙏𝙝𝙞𝙨 𝙋𝙧𝙤 𝙗𝙤𝙩 𝙬𝙖𝙨 𝙢𝙖𝙙𝙚 𝙗𝙮 [Ꮢყαɳ ơ℘](https://t.me/𝐋𝐔𝐂𝐈𝐅𝐄𝐑)
 Click /help or use button below to find out more about how to use me to my full potential."""
@@ -115,12 +93,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="✨MY OWNER 👑✨", url="http://t.me/IMMORTAL_RYAN"),
+            text="MY OWNER 👑", url="http://t.me/IMMORTAL_RYAN"),
        
     ],
     [  
-        InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://telegra.ph/file/9c437e8708ee4d4d15765.jpg"),
-    InlineKeyboardButton(text="🔥JOIN CHATTING GROUP🔥",url="https://telegra.ph/file/9c437e8708ee4d4d15765.jpg"),
+        InlineKeyboardButton(text="Chennal ✨", url="https://telegra.ph/file/9c437e8708ee4d4d15765.jpg"),
+    InlineKeyboardButton(text="😈JOIN CHATTING GROUP😈",url="https://t.me/strangers_force"),
 ],
 ]
 
@@ -131,8 +109,7 @@ Don't forget LUCIFER is a Powerful and advance Bot 😎 You can expect more from
 Please check all commands of LUCIFER after that you can use all PRO features of this Bot. Explore all commands of LUCIFER 😈✨.
 One Intresting Feature in 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 bot => You can access Google in Groups using this Bot and also you can get images in Group using this Bot 😈.
 
-                 #UNSTOPPABLELUCIFER#
-
+                 
 *CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF 😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈*
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
