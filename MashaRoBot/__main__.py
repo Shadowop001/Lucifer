@@ -102,8 +102,6 @@ buttons = [
 ],
 ]
 
-MashaRobot_IMG = "https://telegra.ph/file/29462832ef183d589eabb.jpg"
-
 HELP_STRINGS = """
 😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈 WITH NEW FEATURES 
 
