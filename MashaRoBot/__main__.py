@@ -74,10 +74,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """ 𝙃𝙚𝙡𝙡𝙤 {}, 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈
+PM_START_TEXT = """ 𝙃𝙚𝙡𝙡𝙤, 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈
 𝙃𝙚𝙮,𝙄 𝙖𝙢 𝙖 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧, 𝙈𝙖𝙙𝙚 𝙨𝙥𝙚𝙘𝙞𝙖𝙡𝙡𝙮 𝙛𝙤𝙧 𝙈𝙖𝙣𝙖𝙜𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥𝙨.
 
-[😈Ꮢყαɳ ơ℘😈 👑](https://t.me/IMMORTAL_RYAN)
+😈@IMMORTAL_RYAN 👑
 
 𝙏𝙝𝙞𝙨 𝙋𝙧𝙤 𝙗𝙤𝙩 𝙬𝙖𝙨 𝙢𝙖𝙙𝙚 𝙗𝙮 [Ꮢყαɳ ơ℘](https://t.me/𝐋𝐔𝐂𝐈𝐅𝐄𝐑)
 Click /help or use button below to find out more about how to use me to my full potential."""
