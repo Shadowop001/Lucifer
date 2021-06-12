@@ -74,51 +74,48 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """ 𝙃𝙚𝙡𝙡𝙤, 𝙈𝙮 𝙣𝙖𝙢𝙚 𝙞𝙨 😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈
-𝙃𝙚𝙮,𝙄 𝙖𝙢 𝙖 𝙂𝙧𝙤𝙪𝙥 𝙈𝙖𝙣𝙖𝙜𝙚𝙧, 𝙈𝙖𝙙𝙚 𝙨𝙥𝙚𝙘𝙞𝙖𝙡𝙡𝙮 𝙛𝙤𝙧 𝙈𝙖𝙣𝙖𝙜𝙞𝙣𝙜 𝙂𝙧𝙤𝙪𝙥𝙨.
+PM_START_TEXT = """Hello, My name is 😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈
 
-😈@IMMORTAL_RYAN 👑
+Hey , I am a Group Manager,
+Made specially for Managing Groups.
 
-𝙏𝙝𝙞𝙨 𝙋𝙧𝙤 𝙗𝙤𝙩 𝙬𝙖𝙨 𝙢𝙖𝙙𝙚 𝙗𝙮 [Ꮢყαɳ ơ℘](https://t.me/𝐋𝐔𝐂𝐈𝐅𝐄𝐑)
+This Pro bot was made by [Ꮢყαɳ ơ℘](https://t.me/immortal_ryan)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD 😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈 TO YOUR GROUP ➕️", url="t.me/LuciferOpRobot?startgroup=true"),
+            text="➕️ ADD 😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈 TO YOUR GROUP ➕️", url="t.me/LuciferOpRobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
         InlineKeyboardButton(text="⚜️HELP", callback_data="help_back"),
     ],
-    [
+   [
         InlineKeyboardButton(
-            text="MY OWNER 👑", url="http://t.me/IMMORTAL_RYAN"),
-       
-    ],
-    [  
-        InlineKeyboardButton(text="Chennal ✨", url="https://telegra.ph/file/9c437e8708ee4d4d15765.jpg"),
-    InlineKeyboardButton(text="😈JOIN CHATTING GROUP😈",url="https://t.me/strangers_force"),
-],
+            text="CHAT GROUP 😈", url="https://t.me/strangers_force")
+   ],
+   [
+        InlineKeyboardButton(
+            text="OWNER 👑", url="http://t.me/IMMORTAL_RYAN"),
+        InlineKeyboardButton(
+            text="⚜️CHANNEL⚜️", url="https://t.me/LuciferOpBots"),
+    ], 
+    
 ]
 
 HELP_STRINGS = """
-😈𝐋𝐔𝐂𝐈𝐅𝐄𝐑😈 WITH NEW FEATURES 
+😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈 WITH NEW FEATURES
 
-Don't forget LUCIFER is a Powerful and advance Bot 😎 You can expect more from this Bot 🔥..
-Please check all commands of LUCIFER after that you can use all PRO features of this Bot. Explore all commands of LUCIFER 😈✨.
-One Intresting Feature in 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 bot => You can access Google in Groups using this Bot and also you can get images in Group using this Bot 😈.
-
-                 
-*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF 😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈*
+*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF TIANA*
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @IMMORTAL_RYAN* [.](https://telegra.ph/file/29462832ef183d589eabb.jpg)
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @LuciferOpSupport*
 """
 
 
-DONATE_STRING ="""CONTACT ME ON  @IMMORTAL_RYAN"""
+DONATE_STRING ="""CONTACT ME ON @IMOORTAL_RYAN"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -363,16 +360,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm [😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈](https://telegra.ph/file/29462832ef183d589eabb.jpg), a powerful group management bot built to help you manage your group easily.
-                 ❍ I can restrict users.
-                 ❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 ❍ I have an advanced anti-flood system.
-                 ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 ❍ I check for admins' permissions before executing any command and more stuffs
+            text=""" ℹ️ I'm *LUCIFER*, a powerful group management bot built to help you manage your group easily.
+                 ✨ I can restrict users.
+                 ✨ I can greet users with customizable welcome messages and even set a group's rules.
+                 ✨ I have an advanced anti-flood system.
+                 ✨ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 ✨ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 ✨ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://telegra.ph/file/9c437e8708ee4d4d15765.jpg).
-                 If you have any question about masha, let us know at @IMMORTAL_RYAN.""",
+                 Here is the [💾Repository](https://t.me/LuciferOpBots).
+                 If you have any question about lucifer, let us know at @LuciferOpSupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -398,7 +395,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *😈 𝐋𝐔𝐂𝐈𝐅𝐄𝐑 😈 BOT*
+            text=""" Hi..😈 I'm *LUCIFER BOT*
                  \nHere is the [Source Code](https://telegra.ph/file/9c437e8708ee4d4d15765.jpg) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
